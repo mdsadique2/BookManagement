@@ -1,0 +1,68 @@
+.mainContainer{
+	
+}
+
+.menuBar {
+	background: #eee;
+	width: 100%;
+	height: 50px;
+	justify-content: space-between;
+	padding: 0px 20px;
+	border-bottom: 1px solid #ddd;
+	box-sizing: border-box;
+}
+
+.menuBar .title {
+	font-size: 24px; 
+	padding-top: 10px;
+}
+
+.menuBar .form {
+	width: 25%;
+	font-size: 24px; 
+	padding-top: 10px;
+	justify-content: space-around;
+}
+
+.menuBar button {
+	width: 100px;
+	height: 30px;
+}
+
+.menuBar input {
+	width: 200px;
+	height: 30px;
+	box-sizing: border-box;
+	margin-right: 10px;
+}
+
+
+.tableContainer {
+	border: 1px solid #ddd;
+	width: 90%;
+	margin: 40px;
+	margin-bottom: 0px;
+}
+
+.tableContainer .row{
+	background: #efefef;
+}
+
+.row:nth-child(even) { background: #fff; }
+
+.row {display: flex; padding: 10px; font-weight: lighter; border-bottom: 1px solid #ddd; text-align: left }
+.row.header{
+	font-weight: normal;
+	text-transform: capitalize;
+	background: #ddd;
+}
+.row .id {width: 10%}
+.row .title {width: 20%}
+.row .author {width: 20%}
+.row .lender {width: 10%}
+.row .borrower {width: 10%}
+.row .action {width: 30%}
+
+.newRowContainer.tableContainer { margin-top: 10px;  margin-bottom: 40px;}
+
+
